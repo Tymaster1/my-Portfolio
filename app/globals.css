@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 15 15% 9%;
+  --muted: 0 0% 60%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: hsl(var(--bg));
+  color: white;
+}
+
+.container-max {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+.card {
+  @apply rounded-3xl bg-white/5 border border-white/10 backdrop-blur shadow-soft;
+}
+
+.button-primary {
+  @apply inline-flex items-center gap-2 rounded-2xl px-5 py-3 font-medium bg-brand-600 hover:bg-brand-700 active:bg-brand-800 transition;
+}
+
+.muted { color: hsl(var(--muted)); }
