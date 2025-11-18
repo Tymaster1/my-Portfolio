@@ -15,8 +15,7 @@ export default function Home() {
         <AnimatedText text="I build fast, modern web experiences." />
 
         <p className="muted mt-6 max-w-xl">
-          Full-stack developer focused on Next.js, Tailwind CSS, and solid PHP/MySQL backends.
-          I like building things that feel smooth and perform well.
+         Full-stack developer with experience in HTML, CSS, JavaScript, and PHP for backend development, and a strong foundation in C++. I focus on building functional, clean, and maintainable applications while continuously improving my skills across both web and software development.
         </p>
 
         <div className="mt-8 flex gap-4">
@@ -54,7 +53,7 @@ export default function Home() {
         <div className="grid md:grid-cols-3 gap-6">
           <div className="md:col-span-2 card p-6">
             <p className="mb-3">
-              I’m a second-year Computer Science student and a developer who enjoys
+              I’m a Final Year Computer Science student and a developer who enjoys
               building both the frontend and the backend. I’ve worked with languages
               like C, C++, Java, PHP, and JavaScript, and I’m focusing on becoming
               very strong with modern web stacks like Next.js and Tailwind.
@@ -99,7 +98,7 @@ export default function Home() {
               name="name"
               required
               className="bg-transparent border border-white/20 rounded-xl px-4 py-3 outline-none focus:border-brand-500"
-              placeholder="Your name"
+              placeholder="Your Name"
             />
           </div>
 

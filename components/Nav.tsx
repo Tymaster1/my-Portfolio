@@ -12,7 +12,7 @@ export default function Nav() {
       className="container-max flex items-center justify-between py-6"
     >
       <Link href="/" className="font-semibold tracking-tight text-white">
-        Your Name
+        Tyrell Norford
       </Link>
 
       <div className="flex items-center gap-6 text-sm">
