@@ -7,11 +7,12 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="pt-24 md:pt-28">
       <Nav />
 
       {/* HERO */}
-      <section className="container-max pt-24">
+      <section className="container-max pt-8 md:pt-10">
+
         <AnimatedText text="I build fast, modern web experiences." />
 
         <p className="muted mt-6 max-w-xl">
